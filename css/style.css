@@ -5,7 +5,9 @@
     margin: 0;
     padding: 0;
     font-family: Manrope;
+    /* border: 2px solid black; */
 }
+
 /* ======== global styling start======== */
 .layout{
     padding: 2rem;
@@ -28,7 +30,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1,344px;
+    /* width: 100%; */
     height: 105px;
     margin: 0 40px;
     border: 0px 0px 1px 0px;
@@ -52,7 +54,6 @@
     font-size: 38px;
     font-weight: 400;
     line-height: 63.56px;
-    /* text-align: left; */
     
 }
 
@@ -113,7 +114,7 @@
     border: none;
     outline: none;
     background-color: transparent;
-    /* font-family: Manrope; */
+    font-family: Manrope;
     font-size: 18px;
     font-weight: 500;
     line-height: 24.59px;
@@ -179,7 +180,6 @@
 .navbar img{
     width: 24px;
     height: 24px;
-    /* padding: 7.5px 3.75px 7.5px 3.75px; */
     gap: 0px;
     opacity: 0px;    
     color: #0A4A6E;
@@ -192,16 +192,6 @@
     gap: 7px;
     margin-top: 112px;
 }
-
-/* .heading-block{
-    width: 483px;
-    height: 132px;
-    margin-right: 79px;
-    top: 289px;
-    left: 48px;
-    gap: 10px;
-    opacity: 0px;    
-} */
 
 .heading-block img{
     display: none;   
@@ -219,7 +209,6 @@
 
 
 .block-p{
-    /* margin-right: 100px; */
     padding-left: 30px;
     margin-bottom: 30px;
     width: 521px;
@@ -229,12 +218,10 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 24.59px;
-    /* text-align: left; */
     color: #0A4A6E;
 }
 
 .primary{
-    /* text-align: center; */
     border: none;
     width: 257px;
     height: 60px;
@@ -249,12 +236,13 @@
 }
 
 .secondary{
-    /* text-align: center; */
+    display: flex;
     border: none;
+    align-items: center;
     background: transparent;
     width: 257px;
     height: 60px;
-    padding: 24px 16px 24px 16px;
+    padding: 24px 16px;
     font-size: 18px;
     font-weight: 700;
     gap: 10px;
@@ -264,9 +252,8 @@
 }
 
 .secondary img{
-    width: 15px;
-    height: 15px;
-    padding: 1px; 
+    width: 25px;
+    height: 25px;
 }
 
 .banner img{
@@ -352,7 +339,6 @@
     gap: 0px;
     border: 2px 0px 0px 0px;
     opacity: 0px;
-    /* angle: -90 deg; */
     border: none;
     background-color: #92C7E6;
 }
@@ -377,9 +363,6 @@
 
 .layout-cards{
     display: flex;
-    /* width: Hug (1,113px)px;
-    height: Hug (413px)px; */
-    top: 569px;
     left: 164px;
     gap: 28px;
     opacity: 0px;    
@@ -389,7 +372,6 @@
     width: Fixed (339px)px;
     height: Hug (413px)px;   
     margin: 30px 0;
-    /* margin: 121px 15px; */
     padding-bottom: 40px;
     margin-bottom: 83px;
     background: #FFFFFF; 
@@ -518,7 +500,6 @@ span{
 }
 
 .health{
-    /* width: 1344px; */
     height: 383px;
     gap: 0px;
     opacity: 0px;    
@@ -544,7 +525,6 @@ span{
     font-family: Manrope;
     font-size: 28px;
     font-weight: 700;
-    /* line-height: 65.57px; */
     text-align: left;
     color: #0A4A6E;    
 }
@@ -634,15 +614,6 @@ span{
     text-align: left;    
      color: #0D5F8E;
 }
-
-/* .about-us .img2{
-    width: 662px;
-    height: 784px;
-    top: 4299px;
-    left: 45px;
-    gap: 0px;
-    opacity: 0px;    
-} */
 
 /* about-details */
 .about-details{
@@ -753,116 +724,6 @@ hr{
 }
 
 /* Patients */
-
-/* .patient{
-    width: 100%;
-    margin-top: 5rem;
-    background: #F9FEFF;
-    overflow: hidden;
-}
-.patient .patient-content{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 5rem;
-}
-
-.content-hold p{
-    color: #656C77;
-}
-
- .badge-content{
-    display: flex;
-    gap: 7px;
-    justify-content: center;
-    border: none;
-    background: #F4F5F6;
-    border-radius: 10px;
-    padding: 0 48px;
-    height: 3rem;
-    margin-top: 2rem;
-} 
-.badge-content h5{
-    font-family: Manrope;
-    padding-top: 10px;
-} 
-
-
-.carousel-container {
-    width: 100%;
-    margin: auto;
-    position: relative;
-}
-
-.carousel {
-    display: flex;
-    align-items: center;
-    width: 100%;
-}
-
-.carousel-item {
-    flex: 1 0 25%;
-    opacity: 0.5;
-    transition: opacity 0.5s, transform 0.5s;
-    transform: scale(0.8);
-
-}
-.carousel-item .profile{
-    display: flex;
-    padding: 1rem ;
-}
-
-.carousel-item.active {
-    opacity: 1;
-    transform: scale(1);
-}
-.flex-all{
-    padding: 0 15px;
-    color: #107AB6;
-}
-.flex-all h4{
-    font-family: Manrope;
-    color: #1286C8;
-    margin-bottom: 5px;
-}
-.review-card {
-    padding: 20px;
-    background-color: #FFFFFF;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    height: 20rem;
-}
-.review-card p{
-    font-family: Manrope;
-    color: #3C4047;
-    margin-top: 10px;
-}
-.carousel-controls {
-    margin: 10px 0;
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-    align-items: center;
-    margin-top: 2rem;
-    cursor: pointer;
-}
-.carousel-dots {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-.dot {
-    height: 10px;
-    width: 10px;
-    margin: 0 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    cursor: pointer;
-}
-.dot.active {
-    background-color: #7BC9DE;
-} */
-
 .patient {
     width: 100%;
     margin-top: 5rem;
@@ -986,96 +847,6 @@ hr{
     background: #7BC9DE;
 }
 
-/* .Health-rows {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    margin-bottom: 50px;
-    transition: transform 0.3s ease-in-out;
-}
-
-.Health-rows .row {
-    width: 405px;
-    height: 623px;
-    top: 6347px;
-    left: 57px;
-    gap: 20px;
-}
-
-.Health-rows.active {
-    opacity: 1;
-    transform: scale(1);
-}
-
-.Health-rows .row1 {
-    gap: 10px;
-}
-
-.row .row-img {
-    width: 405px;
-    height: 303px;
-}
-
-.row .row-text {
-    width: Hug (405px)px;
-    height: Hug (300px)px;
-    gap: 12px;
-}
-
-.row .row-h1 {
-    width: Fixed (349px);
-    height: Hug (66px);
-    gap: 10px;
-    opacity: 0px;
-    margin: 10px 0;
-}
-
-.row .row-h1 h1 {
-    font-family: Manrope;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 32.78px;
-    text-align: left;
-    color: #3C4047;
-}
-
-.row .row-paragraph {
-    width: Hug (405px)px;
-    height: Hug (222px)px;
-    gap: 8px;
-}
-
-.row-paragraph p {
-    font-family: Manrope;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 21.86px;
-    text-align: left;
-    color: #656C77;
-    margin-bottom: 20px;
-}
-
-.Health-Articles .arrows {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 176px;
-}
-
-.arrows {
-    width: Hug (172px)px;
-    height: Hug (70px)px;
-    top: 7035px;
-    left: 633.5px;
-    gap: 32px;
-}
-
-.arrows img {
-    width: 70px;
-    height: 70px;
-    gap: 0px;
-    opacity: 0px;
-} */
-
 /* Health */
 .row-btn {
     display: flex;
@@ -1173,7 +944,6 @@ hr{
 /* ======= SERVICE PAGE START ======= */
 .rovides-health{
     position: relative;
-    /* margin-top: 71px; */
 }
 
 /* buttons */
@@ -1199,6 +969,7 @@ hr{
 
 .healt-service{
     display: flex;
+    height: 180vh;
     padding: 65px 0 0px 65px;  
     margin: 0 2rem;
     margin-top: 500px;
@@ -1206,21 +977,13 @@ hr{
 }
 
 .Consultation{
-    width: 1344px;
-    width: 1344px;
-    height: 1233px;
+    width: 50%;
     top: 658px;
     left: 48px;
     gap: 0px;
     opacity: 0px;
     margin-bottom: 5px;
-}
-
-.Consultation .col3-h1{
-    width: Fixed (504px)px;
-    height: Hug (66px)px;
-    gap: 10px;
-    opacity: 0px;    
+    margin-right: 20px;
 }
 
 .Consultation .col3-h1 h1{
@@ -1233,8 +996,6 @@ hr{
 }
 
 .col3{
-    width: Fixed (598px)px;
-    height: Fixed (361px)px;
     top: 706px;
     left: 65px;
     gap: 10px;
@@ -1283,17 +1044,11 @@ hr{
 .health-service-img{
     width: 598px;
     height: 915px;
-    top: 116px;
-    left: 746px;
-    gap: 0px;
-    opacity: 0px;
     margin-top: 51px;
     
 }
 
 .properties-2{
-    /* width: 1440px;
-    height: 965px; */
     top: 3217px;
     gap: 0px;
     opacity: 0px;
@@ -1576,7 +1331,7 @@ hr{
     height: 148px;   
 }
 
-.consult-title span{ 
+.consult-title p{ 
     font-family: Manrope;
     font-size: 30px;
     font-weight: 700;
@@ -2145,6 +1900,9 @@ footer hr{
         margin-bottom: 20px;
       }
 
+      .section{
+       width: 100%;
+      }
 
       .heading-block h1{
         font-size: 31px;
@@ -2154,12 +1912,33 @@ footer hr{
     .block-p{
         width: 395px;
     }
+    
+.primary{
+    width: 70%;
+    height: 60px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.39px;
+    text-align: center;
+    margin-left: 17px;
+}
 
-.primary,
 .secondary{
-      width: 177px;
-        font-size: 16px;
-    }
+    width: 70%;
+    height: 60px;
+    padding: 8px 8px;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16.39px;
+    text-align: center;
+}
+
+.secondary img{
+    width: 18px;
+    height: 18px;
+}
 
         /* services  start*/
         .services{
@@ -2301,10 +2080,17 @@ footer hr{
     padding-right: 0px;
 }
 
+.Consultation{
+   margin-right: 35px;
+}
+
+.Consultation .col3{
+   margin-right: 0;
+}
+
 .Consultation .col3-h1 h1{
     text-align: center;
 }
-
 
 .hr-p-h{
     width: 280px;
@@ -2314,8 +2100,13 @@ footer hr{
    margin-left: 10px;
 }
 
+.health-service-img{
+    width: 313px;
+    height: 415px;
+}
+
 .health-service-img img{
-    width: 302.5px;
+    width: 313px;
     height: 415px;
 }
 
@@ -2337,7 +2128,7 @@ footer hr{
     height: 231px; 
     position: absolute;
     top: 29rem;
-    left: 16rem;
+    left: 12rem;
 }
 
 .phy-soc-img img{
@@ -2347,6 +2138,7 @@ footer hr{
 
 
 .progm-hr{
+    width: 70%;
     margin: 18rem 0;  
 }
 
@@ -2359,7 +2151,6 @@ footer hr{
 }
 
 .component-btn{
-    display: flex;
     gap: 20px;
     margin-top: 30px;
 }
@@ -2379,6 +2170,7 @@ footer hr{
 .how-container .paragraphs{
     padding: 0;
 }
+
 
 /* contacts page */
 .provides-2{
@@ -2415,10 +2207,6 @@ footer hr{
 .appoit-form{
     display: block;
 }
-
-/* .Supports h1{
-    font-size: 36px;
-} */
 
 .appointment{
     width: 100%;
@@ -2478,7 +2266,7 @@ padding-bottom: 50px;
 }
 
 .stay-contect{
-    width: 120%;
+    width: 100%;
     font-size: 17px;
 }
 
@@ -2493,7 +2281,7 @@ padding-bottom: 50px;
 
 .png-imgs{
    margin: 0;
-   margin-right: 13rem;
+   margin-right: 5rem;
 }
 
 .copy{ 
@@ -2501,6 +2289,7 @@ padding-bottom: 50px;
 }
 
 }
+
 
 @media (max-width: 475px){
         .herder{
@@ -2524,8 +2313,6 @@ padding-bottom: 50px;
         .herder .logo-img{
             width: 87px;
             height: 31px;
-            top: 32px;
-            left: 24px;
             gap: 10px;
             opacity: 0px;  
             margin-right: 12rem;
@@ -2534,8 +2321,6 @@ padding-bottom: 50px;
         .search{
             Width: 327px;
             height: 40px;
-            top: 76px;
-            left: 24px;
             padding: 10px;
             gap: 12px;
             border-radius: 40px;      
@@ -2594,6 +2379,8 @@ padding-bottom: 50px;
         
         #bar {
             display: initial;
+            padding: 0;
+            margin: 0;
           }
         
         #bar {
@@ -2618,14 +2405,13 @@ padding-bottom: 50px;
     
         .heading-block img{
             display: block;
-            width: 375px;
+            width: 100%;
             height: 240px;
             top: 242px;       
         }
     
         .heading-block h1{
             margin-right: 20px;
-            /* margin: 31px 43px; */
             font-family: manrope;
             padding: 31px 0;
             margin-left: 43px;
@@ -2636,36 +2422,34 @@ padding-bottom: 50px;
         }
     
         .block-p{
-            width: 314px;
+            width: 80%;
             height: 57px;
-            top: 514px;
-            left: 36px;
-            gap: 10px;
             padding-left: 0;
             margin: 31px 36px;
-            margin-bottom: 40px;
-            font-family: manrope;
-            font-size: 14px;
-            font-weight: 600;
-            line-height: 18.12px;
+            margin-bottom: 80px;
+            padding-bottom: 30px;
             text-align: center;                
+        }
+
+        .component .component-btn {
+            margin-top: 30px;
+            padding-top: 40px;
         }
         
     .primary{
-        width: 138px;
+        width: 70%;
         height: 60px;
         padding: 2px 8px;
-        gap: 10px;
         font-size: 12px;
         font-weight: 700;
         line-height: 16.39px;
         text-align: center;
-        margin-left: 37px;
+        margin-left: 17px;
         margin-bottom: 83px;
     }
     
     .secondary{
-        width: 138px;
+        width: 70%;
         height: 60px;
         padding: 8px 8px;
         gap: 10px;
@@ -2674,6 +2458,11 @@ padding-bottom: 50px;
         line-height: 16.39px;
         text-align: center;
         margin-bottom: 83px;
+    }
+
+    .secondary img{
+        width: 18px;
+        height: 18px;
     }
         
     
@@ -2709,21 +2498,20 @@ padding-bottom: 50px;
         
         .detaisl .hero2{
             display: block;
-            width: 327px;
+            width: 100%;
             height: 194px;
             top: 873px;
             left: 24px; 
         }
         
         .paragraph-book{
-            width: 337px;
+            width: 100%;
             height: 152px;
             top: 1103px;
             left: 19px;
         }
         
         .paragraph-book p{
-            font-size: 14px;
             font-weight: 700;
             line-height: 19.12px;
             text-align: center;      
@@ -2758,9 +2546,14 @@ padding-bottom: 50px;
        .buttons button{
         height: 60px;
        }
+
+    .services{
+        width: 100%;
+    }
     
        .layout-cards{
         display: flex; 
+        width: 100%;
         margin-top: 96px;
     }
     
@@ -2770,28 +2563,35 @@ padding-bottom: 50px;
     
     .services-card{
         display: flex;
+        width: 100%;
         margin-bottom: 0;
         margin: 0;
     }
     
     .layout-cards{
         display: block;
+        width: 100%;
     }
     
     .layout-cards .card{
-        width: 327px;
         height: 413px;
         top: 1461px;
         left: 24px;
     }
     
+    .card .col1{
+        width: 100%;
+        height: 190px;  
+    }
+    
+    
     .card .col1 img{
-        width: 327px;
+        width: 100%;
         height: 190px;  
     }
     
     .card .col2{
-        width: 327px;
+        width: 100%;
         height: 223px;
         gap: 12px;
         opacity: 0px;
@@ -2832,13 +2632,18 @@ padding-bottom: 50px;
     
     .block-img{
         display: block;
-        width: 374px;
-        height: 137px;
+        width: 334px;
+        height: 139px;
+        padding: 0;
         padding-bottom: 30px;
+    }
+
+    .health-paragraph{
+        width: 100%;
     }
     
     .health-paragraph p{
-        padding-right: 7.6rem;
+        width: 120%;
     }
     /* how it works end */
     
@@ -2900,14 +2705,9 @@ padding-bottom: 50px;
     .badge-content{
         width: 100%;
         position: absolute;
+        padding: 0;
         top: 50px;
     }
-
-/* swiper */
-/* .swiper-wrapper {
-  margin: 0;
-  padding-right: 5004rem;
-} */
 
 .swiper-slide {
     transform: scale(.4);
@@ -2915,38 +2715,27 @@ padding-bottom: 50px;
 
     /* health articles */
     .container4 {
-        margin-top: 50px;
-        padding: 0px;
-    }
-    .articles{
         width: 100%;
-        justify-content: space-between;
+        margin-top: 50px;
+       padding: 0;
+    }
+
+    .articles{
+        width: 405%;
         gap: 195px;
         margin-bottom: 20px;
         position: relative;
     }
 
+
     .article {
         width: 4000%;
     }
 
-    .article h3{
-        width: 340%;
-    }
-
-    .article p{
-        width: 240%;
-    }
-
-    .article img{
-        width: 274%;
-    }
-
     .article .art-img{
-        margin-right: 80px;
-        padding-right: 60px;
-        width: 282%;
+        width: 300%;
     }
+
 
     .my-arrows{
         margin-left: 80px;
@@ -2954,7 +2743,6 @@ padding-bottom: 50px;
 
     
     /* service page */
-    
     .provides{
         width: 100%;
         height: 134vh;
@@ -2981,43 +2769,40 @@ padding-bottom: 50px;
         margin: 0 24px;
         margin-top: 940px; 
         padding-right: 50px;
-        height: 330vh;
+        height: 350vh;
     }
-    
+
+    .Consultation{
+        width: 110%;
+        margin: 0;
+        padding: 0;
+    }
+
+
     .Consultation .col3-h1 h1{
         padding-right: 38px;
         text-align: center;
-        font-size: 44px;
+        font-size: 38px;
     }
-    
-    .col3{  
-        width: 50%;
-        margin-right: 0px;
-        padding-right: 384px;
-    }
-    
-    .col3-p{
-        font-family: Manrope;
-    }
-    
+
     .hr-p-h{
-        width: 280px;
+        width: 270px;
     }
     
     .col3-btn-p{
-       margin-left: 10px;
+       margin-left: 0px;
     }
     
     .health-service-img{
-        width: 302.5px;
+        align-items: center;
+        width: 290px;
         height: 415px;
-        margin-top: 401px;
         margin-bottom: 30px;
         
     }
-    
+
     .health-service-img img{
-        width: 302.5px;
+        width: 287px;
         height: 415px;
         margin-top: 40px;
     }
@@ -3064,14 +2849,13 @@ padding-bottom: 50px;
         height: 231px; 
         position: absolute;
         top: 46rem;
-        left: 6.5rem;
+        left: 5rem;
     }
     
     .phy-soc-img img{
         width: 231px;
         height: 231px;  
     }
-    
     
     .progm-hr{
         margin: 8rem 0;  
@@ -3084,28 +2868,46 @@ padding-bottom: 50px;
     .health-paragraph{
         padding-right: 48.6px;   
     }
-    
-    .component-btn{
-        display: flex;
-        gap: 20px;
-        margin-top: 30px;
+
+    .col3-btn-p{
+        width: 53%;
+        font-size: 10.6px;
+        font-weight: 700;
     }
     
-    .compt-btn1{
+    .compt-btn-1{
+        width: 58%;
         margin-left: 0;
+        font-size: 10px;
+        font-weight: 700;
     }
     
     .how-container{
         margin-top: 15rem;
     }
     
+    .compt-btn-img{
+        width: 118%;
+    }
+    
     .compt-btn-img img{
-        padding-right: 5rem;
+        width: 108%;
+        height: 12vh;
+        padding: 0;
     }
     
     .how-container .paragraphs{
         padding: 0;
     }
+
+        
+    .health-paragraph .component-btn{
+        width: 120%;
+        display: flex;
+        margin-top: 30px;
+        font-size: 222px;
+    }
+    
 
     .serv-cont{
         display: block;
@@ -3114,12 +2916,12 @@ padding-bottom: 50px;
     
     .serv-cont .article {
         display: block;
-        width: 37%;
+        width: 22%;
         margin: 24px 0;
     }
 
     .serv-cont .article h3{
-        width: 337px;
+        width: 310px;
     }
     
     
@@ -3135,17 +2937,22 @@ padding-bottom: 50px;
         margin-top: 400px;
         padding: 70px 24px;  
         padding-bottom: 600px;
-        height: 240vh;
+        height: 255vh;
     }
     
     .consult-title{
-        width: 435px;  
+        width: 287px;  
         padding-right: 8.5rem;
         margin-bottom: 8rem;
     }
     
     .consult-title h1{
-        font-size: 45px;
+        width: 287px;  
+        font-size: 30px;
+    }
+    
+    .consult-title p{
+        width: 287px;  
     }
     
     .contact-form{
@@ -3220,7 +3027,7 @@ padding-bottom: 50px;
     
     /* footer */
     footer{
-        height: 205vh;
+        height: 200vh;
     }
     
     .container{
@@ -3235,12 +3042,17 @@ padding-bottom: 50px;
     
     .container-text p{
         font-size: 16.5px;
+        margin: 0;
+        padding: 0;
     }
     
     .social-medial{
-    display: flex;
     padding: 70px 0;
     padding-bottom: 30px;
+    }
+
+    .social-medial a{
+        max-width: 50px;
     }
     
     .for-tags{
@@ -3255,12 +3067,34 @@ padding-bottom: 50px;
     .for-stay-conect{
         display: block;
     }
-    
-    .stay-contect{
-        width: 200%;
+
+    .stay-contectd{
+        width: 50%;
     }
     
+    .stay-contect{
+        width: 100%;
+    }
+
+    .stay-contect .h1-text{
+        width: 200%;
+    }
+
+    .stay-contect .h1-text h1{
+        font-size: 30px;
+    }
+    
+    .stay-contect .h1-text p{
+        font-size: 20px;
+        padding: 6px;
+    }
+
+    .stay-btn{
+        width: 200%;
+    } 
+
     .stay-btn input{
+        width: 154px;
         outline: none;
         border: none;
         padding: 16px;
@@ -3286,34 +3120,11 @@ padding-bottom: 50px;
     }
     
     .copy{ 
-       margin: auto 40px;
+      margin-left: 40px;
+      margin-top: 0;
     }
     
 }
 
-
-@media (max-width:477px) {
-/* service page */
-.healt-service{
-    height: 270vh;
-}
-
-/* contact page */
-.contact-details-form{
-    height: 200vh;
-}
-
-.appointment{
-    height: 110vh;
-}
-
-.form-2{
-    height: 50vh;
-}
-
-    footer{
-        height: 165vh;
-    }
-}
 
 /* ========== RESPONSIVENES START ========== */
