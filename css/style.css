@@ -2294,9 +2294,6 @@ padding-bottom: 50px;
 
 
 @media (max-width: 475px){
-    *{
-        border: 2px solid b;
-    }
     .herder .logo{
         width: 70px;
         height: 31px;
@@ -2631,6 +2628,15 @@ padding-bottom: 50px;
     .health-paragraph p{
         width: 120%;
     }
+
+    .health .block-img1{
+        display: block;
+        width: 320px;
+        height: 139px;
+        padding: 0;
+        padding-bottom: 0px;
+    }
+
     /* how it works end */
     
     /* about */
