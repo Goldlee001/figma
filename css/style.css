@@ -568,8 +568,8 @@ span{
 
 /* about us */
 .about-us{
-    width: Hug (1,344px)px;
-    height: Hug (730px)px;
+    width: 1,344px;
+    height: 730px;
     top: 3501px;
     left: 48px;
     gap: 25px;
@@ -581,9 +581,13 @@ span{
     width: 100%;
 }
 
+.about .us-img1{
+    display: none;
+}
+
 .about-us-texts{
-    width: Hug (1,344px)px;
-    height: Hug (181px)px;
+    width: 1,344px;
+    height: 181px;
     gap: 16px;
     opacity: 0px;    
 }
@@ -1809,11 +1813,9 @@ footer hr{
 /* ========== RESPONSIVENES START ========== */
 @media (max-width: 769px){
     .herder{
-        width: 100%;
+        width: 10px;
         display: block;
-      justify-content: flex-start;
-        align-items: self-start;
-        margin: 32px 0 32px 24px ;
+        margin-top: 30px;
         border: none;
     }
 
@@ -1831,7 +1833,7 @@ footer hr{
     }
 
     .search{
-        Width: 93%;  
+        Width: 680px;  
         height: 70px; 
         padding: 20px;
         margin-top: 30px;
@@ -2292,15 +2294,6 @@ padding-bottom: 50px;
 
 
 @media (max-width: 475px){
-        .herder{
-            width: 100%;
-            display: block;
-          justify-content: flex-start;
-            align-items: self-start;
-            margin: 32px 0 32px 24px ;
-            border: none;
-        }
-    
         .logo{
             width: 87px;
             height: 31px;
@@ -2315,11 +2308,11 @@ padding-bottom: 50px;
             height: 31px;
             gap: 10px;
             opacity: 0px;  
-            margin-right: 12rem;
+            margin-right: 11rem;
         }
     
         .search{
-            Width: 327px;
+            Width: 290px;
             height: 40px;
             padding: 10px;
             gap: 12px;
@@ -2360,11 +2353,11 @@ padding-bottom: 50px;
           }
     
           .navbar {
-            display: none; /* Initially hide the navbar */
+            display: none;
         }
         
         .navbar.show {
-            display: block; /* Show the navbar when the 'show' class is added */
+            display: block;
         }
         
     
@@ -2406,8 +2399,7 @@ padding-bottom: 50px;
         .heading-block img{
             display: block;
             width: 100%;
-            height: 240px;
-            top: 242px;       
+            height: 240px;      
         }
     
         .heading-block h1{
@@ -2432,12 +2424,13 @@ padding-bottom: 50px;
         }
 
         .component .component-btn {
+            margin: 0;
             margin-top: 30px;
             padding-top: 40px;
         }
         
     .primary{
-        width: 70%;
+        width: 50%;
         height: 60px;
         padding: 2px 8px;
         font-size: 12px;
@@ -2650,26 +2643,46 @@ padding-bottom: 50px;
     /* about */
     .about{
         margin-top: 60px;
-        padding: 24px;
+        padding: 0px;
         padding-top: 40px;
+    }
+
+.about-us-texts{
+    padding: 24px;
+}
+
+    .about-us .us-img1{
+        display: block;
+        margin: 0;
+        padding: 0;
+    }
+
+    .about-us .us-img2{
+        display: none;
     }
     
     .about-details{
+        padding: 24px;
         display: block;
+    }
+    
+    .about-img1{
+        width: 327px;
+        height: 311px;       
     }
     
     .about-details .about-img{
         margin-right: 0px;
-        width: 330px;
-        height: 484px;
+        width: 312px;
+        height: 311px; 
         margin-bottom: 20px;
     }
     
     
     .about-details .about-img img{
         margin-right: 0;
-        width: 330px;
-        height: 484px;
+        width: 312px;
+        height: 311px; 
     }
     
     
@@ -2690,23 +2703,24 @@ padding-bottom: 50px;
     
     /* pe */
     .patient .patient-content {
-        flex-direction: column;
         margin-bottom: 2rem;
     }
     
     .content-hold h1{
-        text-align: left;
+        padding: 10px;
+        margin-top: 50px;
     }
     
+    
     .content-hold p{
-        margin-top: 50px;
+        text-align: center;
     }
 
     .badge-content{
-        width: 100%;
-        position: absolute;
+        width: 80%;
+        top: 0;
         padding: 0;
-        top: 50px;
+        margin: 0;
     }
 
 .swiper-slide {
@@ -2731,11 +2745,6 @@ padding-bottom: 50px;
     .article {
         width: 4000%;
     }
-
-    .article .art-img{
-        width: 300%;
-    }
-
 
     .my-arrows{
         margin-left: 80px;
@@ -3023,11 +3032,34 @@ padding-bottom: 50px;
         width: 100%;
         padding-top: 20px;
     }
+
+    /* tostfild start */
+.toast {
+    visibility: hidden;
+    margin-left: 0rem;
+    background-color: #0A4A6E;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+    left: 0%;
+    top: 30%;
+    font-size: 17px;
+    white-space: nowrap;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.toast.show {
+    visibility: visible;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+ /* tostfild end */
     
     
     /* footer */
     footer{
-        height: 200vh;
+        height: 170vh;
     }
     
     .container{
@@ -3036,7 +3068,7 @@ padding-bottom: 50px;
     }
     
     .container-text{
-        width: 330px;
+        width: 320px;
         height: 176px;
     }
     
