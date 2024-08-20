@@ -2294,6 +2294,9 @@ padding-bottom: 50px;
 
 
 @media (max-width: 475px){
+    *{
+        border: 2px solid b;
+    }
     .herder .logo{
         width: 70px;
         height: 31px;
@@ -2868,7 +2871,7 @@ padding-bottom: 50px;
         padding-right: 48.6px;   
     }
 
-    .component-btn{
+    .Consultation .component-btn{
         width: 110%;
         gap: 10px;
     }
