@@ -212,7 +212,7 @@
 }
 
 .navbar ul li:hover .sub-menu-1 ul li{
-    width: 150px;
+    width: 110px;
     padding: 10px;
     border-bottom: 1px dotted #fff;
     background: transparent;
@@ -2348,7 +2348,7 @@ padding-bottom: 50px;
             height: 31px;
             gap: 10px;
             opacity: 0px;  
-            margin-right: 10rem;
+            margin-right: 12rem;
             margin-left: 0;
             padding-left: 0;
             padding: 0;
@@ -2786,6 +2786,7 @@ padding-bottom: 50px;
     }
 
     .my-arrows{
+        width: 60%;
         margin-left: 80px;
     }
 
