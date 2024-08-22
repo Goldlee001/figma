@@ -1925,6 +1925,10 @@ footer hr{
         font-size: 27px;
       }
 
+      .navbar ul li .drop{
+        display: none;
+      }
+
     #bar {
         display: initial;
       }
