@@ -1,34 +1,47 @@
 
-// how
+// // how
+// function swapLeft() {
+//     const articles = document.querySelector('.articles');
+//     const content1 = document.querySelector('.content1');
+//     const content2 = document.querySelector('.content2');
+//     const content3 = document.querySelector('.content3');
+
+//     // Rotate positions: content1 -> content2, content2 -> content3, content3 -> content1
+//     articles.insertBefore(content1, content3.nextSibling);
+    
+//     // Update class names to reflect the new order
+//     content1.className = 'content3 article';
+//     content2.className = 'content1 article';
+//     content3.className = 'content2 article';
+// }
+
+// function swapRight() {
+    // const articles = document.querySelector('.articles');
+//     const content1 = document.querySelector('.content1');
+//     const content2 = document.querySelector('.content2');
+//     const content3 = document.querySelector('.content3');
+    
+
+//     // Rotate positions: content3 -> content2, content2 -> content1, content1 -> content3
+//     articles.insertBefore(content3, content1);
+    
+//     // Update class names to reflect the new order
+//     content1.className = 'content2 article';
+//     content2.className = 'content3 article';
+//     content3.className = 'content1 article';
+// }
+
+// all about Health Article 
 function swapLeft() {
     const articles = document.querySelector('.articles');
-    const content1 = document.querySelector('.content1');
-    const content2 = document.querySelector('.content2');
-    const content3 = document.querySelector('.content3');
-
-    // Rotate positions: content1 -> content2, content2 -> content3, content3 -> content1
-    articles.insertBefore(content1, content3.nextSibling);
-    
-    // Update class names to reflect the new order
-    content1.className = 'content3 article';
-    content2.className = 'content1 article';
-    content3.className = 'content2 article';
+    const contentItems = Array.from(articles.children);
+    articles.appendChild(contentItems[0]);
 }
 
 function swapRight() {
     const articles = document.querySelector('.articles');
-    const content1 = document.querySelector('.content1');
-    const content2 = document.querySelector('.content2');
-    const content3 = document.querySelector('.content3');
-    
-
-    // Rotate positions: content3 -> content2, content2 -> content1, content1 -> content3
-    articles.insertBefore(content3, content1);
-    
-    // Update class names to reflect the new order
-    content1.className = 'content2 article';
-    content2.className = 'content3 article';
-    content3.className = 'content1 article';
+    const contentItems = Array.from(articles.children);
+    articles.insertBefore(contentItems[contentItems.length - 1], contentItems[0]);
 }
 
 
@@ -49,6 +62,9 @@ document.addEventListener("DOMContentLoaded", () => {
         },
     });
 });
+
+// swiper2
+
 
 
 
