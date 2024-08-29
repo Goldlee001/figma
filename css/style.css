@@ -2816,6 +2816,15 @@ padding-bottom: 50px;
     transition: opacity 0.5s, transform 0.5s;
 }
 
+.swiper1{
+    display: none;
+}
+
+.swiper1.show {
+    display: block;
+}
+
+
 
 .review-card {  
     padding: 20px;
@@ -2870,6 +2879,14 @@ padding-bottom: 50px;
         gap: 195px;
         margin-bottom: 20px;
         position: relative;
+    }
+
+    #articles{
+        display: none;
+    }
+
+    #articles.show {
+        display: block;
     }
 
     .serv-cont{
