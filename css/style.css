@@ -912,6 +912,11 @@ hr{
     overflow: hidden;
     padding: 20px;
 }
+
+.container4-mobile{
+    display: none;
+}
+
 .container4 h2 {
     color: #0D5F8E;
     font-size: xx-large ;
@@ -2852,11 +2857,14 @@ padding-bottom: 50px;
 
     /* health articles */
     .container4 {
-        width: 100%;
-        margin-top: 50px;
-       padding: 0;
+        display: none;
     }
 
+    .container4-mobile{
+        display: block;
+        margin-bottom: 50px;
+    }
+    
     .articles{
         width: 405%;
         gap: 195px;
@@ -2864,14 +2872,23 @@ padding-bottom: 50px;
         position: relative;
     }
 
+    .serv-cont{
+        display: block;
+        padding: 0 24px;
+    }
+    
+    .serv-cont .article {
+        display: block;
+        width: 22%;
+        margin: 24px 0;
+    }
 
-    .article {
-        width: 4000%;
+    .serv-cont .article h3{
+        width: 310px;
     }
 
     .my-arrows{
-        width: 60%;
-        margin-left: 80px;
+        display: none;
     }
 
     
