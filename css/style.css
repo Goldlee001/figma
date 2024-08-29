@@ -1724,6 +1724,7 @@ footer{
     gap: 32px;
     opacity: 0px;
   cursor: progress;
+  margin-top: 20px;
 }
 
 .social-medial-mobile{
@@ -1754,18 +1755,10 @@ footer{
     line-height: 21.86px;
     text-align: left;    
     color: #EBF7FA;
-    /* border-bottom: 1px solid #EBF7FA; */
+    border-bottom: 1px solid #EBF7FA;
+    width: 100%;
 }
 
-.for-tags a h1::after{
-    content: "";
-    width: 100%;
-    height: 2px;
-    background: #ffffff;
-    position: absolute;
-    bottom: -3px;
-    left: 0px;
-  }
 
 .for-stay-conect{
     display: flex;
@@ -2329,7 +2322,7 @@ footer{
 }
 
 .social-medial{
-display: flex;
+width: 300%;
 padding: 50px 0;
 margin-top: 50px;
 padding-bottom: 50px;
@@ -3195,7 +3188,7 @@ padding-bottom: 50px;
     
     /* footer */
     footer{
-        height: 180vh;
+        height: 260vh;
     }
     
     .container{
@@ -3210,11 +3203,9 @@ padding-bottom: 50px;
     
  .connected-links-mobile{
     display: block;
+    position: relative;
  }
     
-    .png-imgs-mobile{
-        display: block;
-    }
     
     .container-text p{
         font-size: 16.5px;
@@ -3223,7 +3214,19 @@ padding-bottom: 50px;
     }
     
     .social-medial{
-    padding: 70px 0;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    }
+
+.social-medial-mobile{
+    width: 80%;
+    display: block;
+    padding: 0;
+    margin: auto;
+}
+
+    .social-medial{
+    padding-top: 90px;
     padding-bottom: 30px;
     }
 
@@ -3233,21 +3236,34 @@ padding-bottom: 50px;
     
     .for-tags{
         display: block;
-        width: 300px;
     }
     
-    .for-tags a{
-        text-decoration: underline;
-        color: white;
-       
-    }
     
     .for-tags a h1{
         margin-top: 47px;
-        text-decoration: underline;
-        border: none;
     }
     
+    .for-tags a .a-h1-1{
+      width: 75px;
+    }
+    
+    .for-tags a .a-h1-2{
+      width: 120px;
+    }
+    
+    .for-tags a .a-h1-3{
+      width: 150px;
+    }
+    
+    .for-tags a .a-h1-4{
+      width: 180px;
+    }
+    
+    .for-tags a .a-h1-5{
+      width: 290px;
+    }
+
+
     
     .for-stay-conect{
         display: block;
@@ -3302,6 +3318,13 @@ padding-bottom: 50px;
     
     .png-imgs{
         display: none;
+    }
+
+    .png-imgs-mobile{
+        display: block;
+        position: absolute;
+        top: 200px;
+        left: 150px;
     }
     
     .copy{ 
