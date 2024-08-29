@@ -3219,17 +3219,15 @@ padding-bottom: 50px;
 
  /* tostfild end */
     
-    
     /* footer */
     footer{
-        height: 260vh;
+        height: 240vh;
     }
     
     .container{
         display: block;
         padding: 24px;
     }
-    
     
  .connected-links{
     display: none;
@@ -3240,7 +3238,6 @@ padding-bottom: 50px;
     position: relative;
  }
     
-    
     .container-text p{
         font-size: 16.5px;
         margin: 0;
@@ -3248,21 +3245,15 @@ padding-bottom: 50px;
     }
     
     .social-medial{
-    padding-top: 90px;
-    padding-bottom: 30px;
+        display: none;
     }
 
 .social-medial-mobile{
-    width: 80%;
+    width: 74%;
     display: block;
-    padding: 0;
+    padding: 75px 0 47px;
     margin: auto;
 }
-
-    .social-medial{
-    padding-top: 90px;
-    padding-bottom: 30px;
-    }
 
     .social-medial a{
         max-width: 50px;
@@ -3270,8 +3261,9 @@ padding-bottom: 50px;
     
     .for-tags{
         display: block;
+        margin-top: 40px;
+        padding-top: 70px;
     }
-    
     
     .for-tags a h1{
         margin-top: 47px;
@@ -3296,11 +3288,11 @@ padding-bottom: 50px;
     .for-tags a .a-h1-5{
       width: 290px;
     }
-
-
     
     .for-stay-conect{
         display: block;
+        margin: 0;
+        padding: 0;
     }
 
     .stay-contectd{
@@ -3357,7 +3349,7 @@ padding-bottom: 50px;
     .png-imgs-mobile{
         display: block;
         position: absolute;
-        top: 200px;
+        top: 330px;
         left: 150px;
     }
     
