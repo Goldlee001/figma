@@ -47,10 +47,19 @@ function swapRight() {
 // all about Health Article2
 document.addEventListener('DOMContentLoaded', function() {
     const view2 = document.querySelector('.view2');
+    const close2 = document.querySelector('.close2');
     const articles = document.querySelector('#articles');
 
     view2.addEventListener('click', function() {
         articles.classList.add('show');
+        view2.style.display = 'none'
+        close2.style.display = 'block'
+    });
+
+    close2.addEventListener('click', function() {
+        articles.classList.remove('show');
+        close2.style.display = 'none'
+        view2.style.display = 'block'
     });
 });
 
@@ -76,10 +85,19 @@ document.addEventListener("DOMContentLoaded", () => {
 // swiper2
 document.addEventListener('DOMContentLoaded', function() {
     const view = document.getElementById('view');
+    const closeAll = document.querySelector('.close');
     const swp1 = document.querySelector('.swiper1');
 
     view.addEventListener('click', function() {
         swp1.classList.add('show');
+        view.style.display = 'none'
+        closeAll.style.display = 'block'
+    });
+    
+    closeAll.addEventListener('click', function() {
+        swp1.classList.remove('show');
+        closeAll.style.display = 'none'
+        view.style.display = 'block'
     });
 });
 
