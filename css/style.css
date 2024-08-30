@@ -42,7 +42,6 @@
 .logo{
     display: flex;
     justify-content: space-between;
-    width: 170px;
     height: 55px;
     gap: 10px;
     opacity: 0px;
@@ -87,12 +86,12 @@
     
 }
 
-.herder .logo{
+/* .herder .logo{
     width: 170px;
     height: 55px;
     gap: 10px;
     opacity: 0px;
-}
+} */
 
 .search{
     text-align: center;
@@ -1887,16 +1886,16 @@ footer hr{
     }
 
     .logo{
-        width: 87px;
-        height: 31px;
+        width: 60px;
+        justify-content: space-between;
         top: 32px;
         left: 24px;
         gap: 10px;
         opacity: 0px;              
     }
 
-    .herder .logo-img{
-        margin-right: 30rem;
+    .herder .logo{
+        width: 700px;
     }
 
     .search{
@@ -2365,7 +2364,7 @@ padding-bottom: 50px;
 
 @media (max-width: 475px){
     .herder .logo{
-        width: 70px;
+        width: 300px;
         height: 31px;
             top: 0px;
             left: 0px;
@@ -2374,14 +2373,7 @@ padding-bottom: 50px;
         }
     
         .herder .logo-img{
-            width: 70px;
             height: 31px;
-            gap: 10px;
-            opacity: 0px;  
-            margin-right: 12rem;
-            margin-left: 0;
-            padding-left: 0;
-            padding: 0;
         }
     
         .search{
