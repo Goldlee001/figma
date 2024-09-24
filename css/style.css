@@ -2949,6 +2949,8 @@ padding-bottom: 50px;
     
     /* service page */
     .provides{
+        top: -950px;
+        margin-top: 5rem;
         width: 100%;
         height: 134vh;
         background: #92C7E633;
@@ -3125,6 +3127,7 @@ padding-bottom: 50px;
     
     /* contacts page */
     .provides-2{
+        top: -400px;
         padding: 80px 24px;
         background: transparent;
         background-image: url("../assets/images/Frame\ 21.png");    
