@@ -8,6 +8,11 @@
     /* border: 2px solid black; */
 }
 
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
 /* ==========all GOOGLE ICONS  START ========= */
 .material-symbols-outlined{
     color: #107AB6;
@@ -1090,6 +1095,10 @@ hr{
 
 
 /* ======= SERVICE PAGE START ======= */
+.provides-health{
+    position: relative;
+}
+
 .rovides-health{
     position: relative;
 }
@@ -1228,7 +1237,7 @@ hr{
 .provides{
     width: 100%;
     height: 432px;
-    top: 246px;
+    top: -400px;
     gap: 0px;
     opacity: 0px;
     background-image: url("../assets/images/Frame\ 213.png");
