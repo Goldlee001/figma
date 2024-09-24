@@ -1522,7 +1522,11 @@ hr{
     font-weight: 700;
     line-height: 21.86px;
     text-align: left;
+}
 
+.con-det-col p a{
+    text-decoration: none;
+    color: #EBF7FA;
 }
 
 .contact-form{
@@ -3007,6 +3011,7 @@ padding-bottom: 50px;
     .health-service-img img{
         width: 330px;
         height: 415px;
+        object-fit: cover;
     }
     
     .p-p-social {
@@ -3371,10 +3376,13 @@ padding-bottom: 50px;
     }
     
     .copy{ 
-      margin-left: 40px;
+      margin-left: 80px;
     }
     
-}
+    .copy img{
+        width: 10rem;
+    }
+}   
 
 
 /* ========== RESPONSIVENES START ========== */
