@@ -355,9 +355,12 @@ body{
     color: #107AB6;
 }
 
-.secondary:hover,
-.material-symbols-outlined:hover{
+.secondary:hover{
     background: #107AB6;
+    color: #fff;
+}
+
+.secondary:hover .material-symbols-outlined{
     color: #fff;
 }
 
@@ -1120,10 +1123,13 @@ hr{
    margin-top: 41px;
 }
 
-.col3-btn-s:hover,
-.gray:hover{
+.col3-btn-s:hover{
     background: #E7F3FA;
     color: #107AB6;  
+}
+
+.col3-btn-s:hover .gray{
+    color: #107AB6;
 }
 
 .col3-2{
@@ -1939,7 +1945,7 @@ footer hr{
 
 
 /* ========== RESPONSIVENES START ========== */
-@media (max-width: 769px){
+@media screen and (max-width: 769px){
     .herder{
         width: 10px;
         display: block;
@@ -2419,7 +2425,7 @@ padding-bottom: 50px;
 }
 
 
-@media (max-width: 475px){
+@media screen and (max-width: 475px){
 /* *{
     border: 1px solid blue;
 } */
